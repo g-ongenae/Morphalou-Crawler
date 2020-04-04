@@ -1,0 +1,41 @@
+{
+  "name": "morphalou-crawler",
+  "version": "0.1.0",
+  "description": "Fetch all the words from https://www.cnrtl.fr/morphologie/",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint ./{src/,test/}*.js",
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "prettier": "prettier --write ."
+  },
+  "keywords": [
+    "CNRTL",
+    "morphologie",
+    "dictionnaire",
+    "français",
+    "french",
+    "dictionnary",
+    "morphalou",
+    "array-of-words"
+  ],
+  "author": "Guillaume Ongenae <guillaume.ongenae@gmail.com> (https://g-ongenae.github.io/)",
+  "license": "MIT",
+  "prettier": {
+    "printWidth": 120
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.3",
+    "lodash.filter": "4.6.0",
+    "lodash.isempty": "4.4.0",
+    "prettier": "2.0.2",
+    "superagent": "5.2.2"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "expect": "25.2.7",
+    "mocha": "7.1.1",
+    "sinon": "9.0.1"
+  }
+}
