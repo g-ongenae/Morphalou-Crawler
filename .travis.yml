@@ -8,4 +8,5 @@ install:
 
 script:
   - npx prettier --list-different .
+  - npm run lint
   - npm test
