@@ -33,7 +33,7 @@
     "superagent": "6.1.0"
   },
   "devDependencies": {
-    "eslint": "7.15.0",
+    "eslint": "7.16.0",
     "expect": "26.6.2",
     "mocha": "8.2.1",
     "sinon": "9.2.2"
