@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "eslint": "7.27.0",
-    "expect": "26.6.2",
+    "expect": "27.0.1",
     "mocha": "8.4.0",
     "sinon": "11.0.0"
   }
