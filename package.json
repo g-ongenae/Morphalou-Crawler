@@ -30,7 +30,7 @@
     "lodash.filter": "4.6.0",
     "lodash.isempty": "4.4.0",
     "prettier": "2.6.1",
-    "superagent": "7.1.1"
+    "superagent": "7.1.2"
   },
   "devDependencies": {
     "eslint": "8.12.0",
